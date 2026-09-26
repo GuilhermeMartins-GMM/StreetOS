@@ -47,7 +47,7 @@ body{
 #janela-pesquisa{
     left: calc(100% - 350px);
     top: 225px;
-    z-index: 106;
+    z-index: 105;
 }
 
 #janela-clima{
@@ -83,11 +83,11 @@ body{
 #janela-pintar{
     left: calc(100% - 350px);
     top: 250px;
-    z-index: 105;
+    z-index: 106;
 }
 
 #janela-musica{
-    left: calc(100% - 700px);
+    left: calc(100% - 710px);
     top: 100px;
     z-index: 100;
 }

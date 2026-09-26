@@ -263,8 +263,13 @@ campoPesquisa.addEventListener('keypress', function(e) {
     }
 });
 
-//arrastar
-let arrastou = false; let zIndexAtual=100;
+//arrastar/apagar
+let zIndexAtual=110;
+let arrastou = false;
+let iconesDeletados = 0;
+const totalIcones = document.querySelectorAll('div.icone').length;
+const dock = document.querySelector('.bottom-bar');
+const iconesDock = document.querySelectorAll('.dock-icone');
 
 function tornarArrastavel(janela) {
     const cabeca = janela.querySelector('.janela-cabeca') || janela;
@@ -304,6 +309,10 @@ function tornarArrastavel(janela) {
                     timerDeletar = setTimeout(() => {
                         janela.style.display = 'none'; 
                         parar();
+                        iconesDeletados++;
+                        if (iconesDeletados === totalIcones) {
+                            dock.classList.add('mostrar');
+                        }
                     }, 1500);
                 }
             } else {
@@ -374,6 +383,25 @@ tornarArrastavel(btnJogo);
 tornarArrastavel(btnPintar);
 tornarArrastavel(btnPiada);
 tornarArrastavel(btnDps);
+
+const janelasApp = [
+'janela-calc',
+'janela-clima',
+'janela-notas',
+'janela-pesquisa',
+'janela-musica',
+'janela-jogo',
+'janela-bemvindo',
+'janela-pintar',
+'janela-piada',
+'janela-dps'
+];
+
+iconesDock.forEach((icone, index) => {
+    icone.addEventListener('click', () => {
+    document.getElementById(janelasApp[index]).style.display =
+    'block'; });
+});
 
 // tela de carregamento
 window.addEventListener('load', () => {

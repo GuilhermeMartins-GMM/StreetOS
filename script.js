@@ -313,7 +313,7 @@ function tornarArrastavel(janela) {
                         if (iconesDeletados === totalIcones) {
                             dock.classList.add('mostrar');
                         }
-                    }, 1500);
+                    }, 900);
                 }
             } else {
                 if (timerDeletar) {
@@ -386,13 +386,13 @@ tornarArrastavel(btnDps);
 
 const janelasApp = [
 'janela-calc',
+'janela-pintar',
 'janela-clima',
 'janela-notas',
 'janela-pesquisa',
 'janela-musica',
 'janela-jogo',
 'janela-bemvindo',
-'janela-pintar',
 'janela-piada',
 'janela-dps'
 ];

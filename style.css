@@ -10,6 +10,7 @@ body{
     overflow: hidden;
     color: white;
     font-weight: 600;
+    user-select: none;
 } 
 
 .top-bar{

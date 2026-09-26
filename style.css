@@ -39,7 +39,7 @@ body{
 }
 
 #janela-calc{
-    left: calc(100% - 500px);
+    left: calc(100% - 670px);
     top: 150px;
     z-index: 101;
 }
@@ -87,7 +87,7 @@ body{
 }
 
 #janela-musica{
-    left: calc(100% - 600px);
+    left: calc(100% - 700px);
     top: 100px;
     z-index: 100;
 }

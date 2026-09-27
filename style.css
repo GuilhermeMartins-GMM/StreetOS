@@ -18,7 +18,7 @@ body{
     height: 55px;
     font-weight: 800;
     font-size: 24px;
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 0px 0px 10px 10px;
     display: flex; justify-content: space-between; 
     background-color: rgba(0,0,0,0.7);
     backdrop-filter: blur(8px);
@@ -153,16 +153,16 @@ body{
     transform: translateY(-4px);
 }
 
-#btn-calc     { top: 160px; left: 120px; }
-#btn-clima    { top: 60px; left: 120px; }
-#btn-notas    { top: 260px; left: 20px; }
-#btn-bemvindo { top: 60px; left: 20px; }
-#btn-pesquisar {top: 160px; left: 20px}
-#btn-musica {top: 360px; left:20px}
-#btn-jogo { top: 260px; left: 120px;}
-#btn-pintar {top: 360px; left: 120px}
-#btn-piada{top: 460px; left:20px}
-#btn-dps {top: 460px; left: 120px;}
+#btn-calc     { top: 180px; left: 120px; }
+#btn-clima    { top: 80px; left: 120px; }
+#btn-notas    { top: 280px; left: 20px; }
+#btn-bemvindo { top: 80px; left: 20px; }
+#btn-pesquisar {top: 180px; left: 20px}
+#btn-musica {top: 380px; left:20px}
+#btn-jogo { top: 280px; left: 120px;}
+#btn-pintar {top: 380px; left: 120px}
+#btn-piada{top: 480px; left:20px}
+#btn-dps {top: 480px; left: 120px;}
  
 #texto-notas {
     width: 100%;
@@ -440,7 +440,7 @@ body{
     position: fixed;
     bottom: -100px;
     width: 100%;
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     background-color: rgba(0,0,0,0.7);
     backdrop-filter: blur(8px);
     display: flex; justify-content: center;

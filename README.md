@@ -18,4 +18,6 @@ An OS made by me to stardance hack club. I really like street style, and I think
 
 #### HTML - Java Script - CSS
 
+You only need one thing to use this OS -> a navigator (like Chrome). 
+
 ![Site exemple](imagens/exemplo.jpg)

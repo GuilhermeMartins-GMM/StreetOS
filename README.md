@@ -18,6 +18,6 @@ An OS made by me to stardance hack club. I really like street style, and I think
 
 #### HTML - Java Script - CSS
 
-To use this OS, you only need internet connection. You don't need to run the code locally, just use a navigator (like Chrome). To use the features, just click on the corresponding icon and a window will open.
+To use this OS, you only need internet connection. You don't need to run the code locally, [just use a navigator (like Chrome)] (https://guilhermemartins-gmm.github.io/StreetOS/). To use the features, just click on the corresponding icon and a window will open.
 
 ![Site exemple](imagens/exemplo.jpg)
